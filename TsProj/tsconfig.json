@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "commonjs",
+		"jsx": "react",
+		"sourceMap": true,
+		"experimentalDecorators": true,
+		"typeRoots": [
+			"../Assets/Lib/Puerts/Typing",
+			"../Assets/Gen/Typing",
+			"./node_modules/@types"
+		],
+		"outDir": "output"
+	}
+}
